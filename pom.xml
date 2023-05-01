@@ -69,7 +69,7 @@
         <configuration>
           <image>
             <builder>dashaun/builder:tiny</builder>
-            <name>dashaun/io.springkubed.service.config:v${project.version}</name>
+            <name>dashaun/io.springkubed.service.config:v${project.version}-${os.detected.arch}</name>
           </image>
         </configuration>
       </plugin>
